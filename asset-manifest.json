@@ -1,0 +1,41 @@
+{
+  "files": {
+    "main.css": "/react-project-network/static/css/main.dc74c0e8.css",
+    "main.js": "/react-project-network/static/js/main.dfbfcf3c.js",
+    "static/js/360.a219f228.chunk.js": "/react-project-network/static/js/360.a219f228.chunk.js",
+    "static/js/787.28cb0dcd.chunk.js": "/react-project-network/static/js/787.28cb0dcd.chunk.js",
+    "static/media/advertisement.png": "/react-project-network/static/media/advertisement.158a903475f0155742b6.png",
+    "static/media/profile-pic.png": "/react-project-network/static/media/profile-pic.331a4b01dbd622288cc5.png",
+    "static/media/status-1.png": "/react-project-network/static/media/status-1.331a4b01dbd622288cc5.png",
+    "static/media/status-2.png": "/react-project-network/static/media/status-2.d88317c10ca15774eaa7.png",
+    "static/media/email_mail_envelope_message_icon_181521.png": "/react-project-network/static/media/email_mail_envelope_message_icon_181521.3bc9c2a284c94f291c0a.png",
+    "static/media/status-4.png": "/react-project-network/static/media/status-4.e8de22771dd5b54ebe3a.png",
+    "static/media/feed-image-4.png": "/react-project-network/static/media/feed-image-4.9d69133d9e36ac8d2ac1.png",
+    "static/media/status-5.png": "/react-project-network/static/media/status-5.4fd62707497444b7afb5.png",
+    "static/media/feed-image-2.png": "/react-project-network/static/media/feed-image-2.952e651a2ff6872a97b5.png",
+    "static/media/feed-image-5.png": "/react-project-network/static/media/feed-image-5.d7a45caa6a02b65fedd0.png",
+    "static/media/feed-image-3.png": "/react-project-network/static/media/feed-image-3.4dda3c9ed07ec0118368.png",
+    "static/media/feed-image-1.png": "/react-project-network/static/media/feed-image-1.7f28a24751e7603f1d52.png",
+    "static/media/status-3.png": "/react-project-network/static/media/status-3.bbbabf31849ec0923ada.png",
+    "static/media/hug.gif": "/react-project-network/static/media/hug.757857ce13a4e4e598e4.gif",
+    "static/media/member-3.png": "/react-project-network/static/media/member-3.cedb1ba5832f609542da.png",
+    "static/media/member-4.png": "/react-project-network/static/media/member-4.df63bfcb6f1c8f5d7137.png",
+    "static/media/member-1.png": "/react-project-network/static/media/member-1.d9c678d896bed0b8c031.png",
+    "static/media/member-2.png": "/react-project-network/static/media/member-2.a92c2df263101574e364.png",
+    "static/media/shortcut-2.png": "/react-project-network/static/media/shortcut-2.5dca328e8cabf38201f5.png",
+    "static/media/shortcut-1.png": "/react-project-network/static/media/shortcut-1.7bb811ecedb84bd4afc0.png",
+    "static/media/shortcut-4.png": "/react-project-network/static/media/shortcut-4.21e19087d8294d1f5e03.png",
+    "static/media/shortcut-3.png": "/react-project-network/static/media/shortcut-3.5b85ae1fce3e2d28b622.png",
+    "static/media/icons8.png": "/react-project-network/static/media/icons8.ecf962a7d588bd793ac9.png",
+    "static/media/send-message.png": "/react-project-network/static/media/send-message.cce7f972efaf9447fcdf.png",
+    "index.html": "/react-project-network/index.html",
+    "main.dc74c0e8.css.map": "/react-project-network/static/css/main.dc74c0e8.css.map",
+    "main.dfbfcf3c.js.map": "/react-project-network/static/js/main.dfbfcf3c.js.map",
+    "360.a219f228.chunk.js.map": "/react-project-network/static/js/360.a219f228.chunk.js.map",
+    "787.28cb0dcd.chunk.js.map": "/react-project-network/static/js/787.28cb0dcd.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.dc74c0e8.css",
+    "static/js/main.dfbfcf3c.js"
+  ]
+}
