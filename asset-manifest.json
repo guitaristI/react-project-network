@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/react-project-network/static/css/main.ad0869be.css",
-    "main.js": "/react-project-network/static/js/main.26d01228.js",
-    "static/js/360.a219f228.chunk.js": "/react-project-network/static/js/360.a219f228.chunk.js",
+    "main.css": "/react-project-network/static/css/main.cca58c0b.css",
+    "main.js": "/react-project-network/static/js/main.6c42d075.js",
+    "static/js/360.adc8f41c.chunk.js": "/react-project-network/static/js/360.adc8f41c.chunk.js",
     "static/js/787.28cb0dcd.chunk.js": "/react-project-network/static/js/787.28cb0dcd.chunk.js",
     "static/media/advertisement.png": "/react-project-network/static/media/advertisement.158a903475f0155742b6.png",
     "static/media/profile-pic.png": "/react-project-network/static/media/profile-pic.331a4b01dbd622288cc5.png",
@@ -29,13 +29,13 @@
     "static/media/icons8.png": "/react-project-network/static/media/icons8.ecf962a7d588bd793ac9.png",
     "static/media/send-message.png": "/react-project-network/static/media/send-message.cce7f972efaf9447fcdf.png",
     "index.html": "/react-project-network/index.html",
-    "main.ad0869be.css.map": "/react-project-network/static/css/main.ad0869be.css.map",
-    "main.26d01228.js.map": "/react-project-network/static/js/main.26d01228.js.map",
-    "360.a219f228.chunk.js.map": "/react-project-network/static/js/360.a219f228.chunk.js.map",
+    "main.cca58c0b.css.map": "/react-project-network/static/css/main.cca58c0b.css.map",
+    "main.6c42d075.js.map": "/react-project-network/static/js/main.6c42d075.js.map",
+    "360.adc8f41c.chunk.js.map": "/react-project-network/static/js/360.adc8f41c.chunk.js.map",
     "787.28cb0dcd.chunk.js.map": "/react-project-network/static/js/787.28cb0dcd.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.ad0869be.css",
-    "static/js/main.26d01228.js"
+    "static/css/main.cca58c0b.css",
+    "static/js/main.6c42d075.js"
   ]
 }
