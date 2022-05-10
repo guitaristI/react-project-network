@@ -9,7 +9,7 @@ const Paginator = (props) => {
     for (let i = 1; i <= pageCount; i++) {
         pages.push(i)
     }
-    let portionSize = 10;
+    let portionSize = 6;
     let portionCount = Math.ceil(pageCount / portionSize);
     let [portionNumber, setPortionNumber] = useState(1);
     let leftPortionPageNumber = (portionNumber - 1) * portionSize + 1;
@@ -32,7 +32,7 @@ const Paginator = (props) => {
                 return <span key={p} className={currentClass} onClick={(e) => {props.onPageChanged(p)}} >{p}</span>
             })}
     { portionCount > portionNumber &&
-        <img src={arrow_right} onClick={() => { setPortionNumber(portionNumber + 1) }} />
+        <img  src={arrow_right} onClick={() => { setPortionNumber(portionNumber + 1) }} />
      }
 
 

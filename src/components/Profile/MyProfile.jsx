@@ -15,7 +15,7 @@ const MyProfile = (props) => {
         }
     }
 
-    return <div className="main-content">
+    return <div className="">
         <div className='profile__about'>
             <div className="profile__rows">
                 <div className="profile__about__row">

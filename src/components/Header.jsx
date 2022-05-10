@@ -1,14 +1,15 @@
-import React, {useEffect, useState} from "react";
-import logo from '../img/logo.png'
+import React, {useState} from "react"
 import notification from '../img/notification.png'
 import inbox from '../img/inbox.png'
 import video from '../img/video.png'
 import search from '../img/search.png'
-import profile__pic from '../img/profile-pic.png'
 import feedback from '../img/feedback.png'
-import {NavLink} from "react-router-dom";
-import Preloader from "./common/Preloader";
-
+import {NavLink} from "react-router-dom"
+import ava from '../img/icons8.png'
+import settings from '../img/setting.png'
+import help from '../img/help.png'
+import display from '../img/display.png'
+import arrow from '../img/arrow-right.png'
 
 const Header = (props) => {
 
@@ -47,7 +48,7 @@ const Header = (props) => {
                 {props.isAuth
                     ? <div className="nav-user-icon online" >
                         <NavLink className='nav-user-login' to={'/login'} onClick={props.logoutThunk} >Logout</NavLink>
-                        <img onClick={ToggleSwitch} src={props.profile.photos.large} alt=""/>
+                        <img onClick={ToggleSwitch} src={props.profile === null ? ava : props.profile.photos.large } alt=""/>
                 </div>
                     : <NavLink className='nav-user-login' to={'/login'}>Login</NavLink>}
 
@@ -61,7 +62,7 @@ const Header = (props) => {
 
                 <div className="settings-menu-inner">
                     <div className="user-profile drop-list">
-                        <img src={props.profile.photos.large} alt=""/>
+                        <img src={props.profile === null ? ava : props.profile.photos.large } alt=""/>
                             <div>
                                 <p>Ilya Grigorev</p>
                                 <a href="#">See your profile</a>
@@ -78,16 +79,16 @@ const Header = (props) => {
                         <hr/>
 
                             <div className="settings-links">
-                                <img src="../img/setting.png" className="settings-icon" alt=""/>
-                                    <a href="#">Settings & Privacy <img src="../img/arrow.png" width="10px" alt=""/></a>
+                                <img src={settings} className="settings-icon" alt=""/>
+                                    <a href="#">Settings & Privacy <img src={arrow} width="10px" alt=""/></a>
                             </div>
                             <div className="settings-links">
-                                <img src="../img/help.png" className="settings-icon" alt=""/>
-                                    <a href="#">Help & Support <img src="../img/arrow.png" width="10px" alt=""/></a>
+                                <img src={help} className="settings-icon" alt=""/>
+                                    <a href="#">Help & Support <img src={arrow} width="10px" alt=""/></a>
                             </div>
                             <div className="settings-links">
-                                <img src="../img/display.png" className="settings-icon" alt=""/>
-                                    <a href="#">Display & accessibility <img src="../img/arrow.png" width="10px"
+                                <img src={display} className="settings-icon" alt=""/>
+                                    <a href="#">Display & accessibility <img src={arrow} width="10px"
                                                                              alt=""/></a>
                             </div>
                             <div className="settings-links">

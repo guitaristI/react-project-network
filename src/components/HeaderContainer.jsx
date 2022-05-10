@@ -7,9 +7,7 @@ import Preloader from "./common/Preloader";
 
 
 const HeaderContainer = (props) => {
-    if (!props.profile) {
-        return <Preloader/>
-    }
+
     return (
 
         <Header {...props} />

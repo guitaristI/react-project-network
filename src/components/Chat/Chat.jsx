@@ -26,7 +26,7 @@ const Chat = (props) => {
 
 
     return (
-        <div className='main-content chat'>
+        <div className='chat'>
             <div className="chat-container">
                 <div className="chat-top">
                     <NavLink to='/dialogs'>

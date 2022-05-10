@@ -4,7 +4,7 @@ import {Navigate} from "react-router";
 
 const Dialogs = (props) => {
     return (
-        <div className='main-content'>
+        <div className='dialogs-content'>
             <div className="write-post-container">
                 <div className="search-dialogs">
                     <img src={search} alt=""/>

@@ -13,6 +13,7 @@ import {useEffect} from "react";
 import {connect} from "react-redux";
 import {initializeAppThunk} from "./redux/app-reducer";
 import Preloader from "./components/common/Preloader";
+import BottomNavbar from "./components/BottomNavbar/BottomNavbar";
 const UsersContainer = React.lazy(() => import("./components/Users/UsersContainer"));
 
 function App(props) {
@@ -53,6 +54,7 @@ function App(props) {
                   </Routes>
                   <RightSidebar/>
               </div>
+              <BottomNavbar/>
           </div>
   );
 }

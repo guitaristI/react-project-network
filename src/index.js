@@ -3,9 +3,16 @@ import ReactDOM, {createRoot} from 'react-dom/client';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
-import {BrowserRouter} from "react-router-dom";
+import {BrowserRouter, HashRouter} from "react-router-dom";
 import store from "./redux/redux-store";
 import {Provider} from "react-redux";
+
+const root = createRoot(document.getElementById("root"));
+root.render(<HashRouter basename={process.env.PUBLIC}>
+    <Provider store={store}>
+        <App/>
+    </Provider>
+</HashRouter>)
 
 
 
@@ -17,27 +24,6 @@ import {Provider} from "react-redux";
 //     </BrowserRouter>,
 //     document.getElementById('root')
 // );
-const root = createRoot(document.getElementById("root"));
-root.render(<BrowserRouter>
-    <Provider store={store}>
-        <App/>
-    </Provider>
-</BrowserRouter>)
-
-
-
-// const settingsMenu = document.querySelector('.settings-menu');
-// const darkBtn = document.getElementById('dark-btn');
-//
-// export function settingsMenuToggle(){
-//     settingsMenu.classList.toggle('settings-menu-height')
-// }
-//
-// darkBtn.onclick = function(){
-//     darkBtn.classList.toggle('dark-btn-on');
-//     document.body.classList.toggle('dark-theme');
-// }
-
 
 
 

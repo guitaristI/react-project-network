@@ -229,7 +229,9 @@ nav{
   color: #626262;
 }
 .main-content {
-  flex-basis: 47%;
+  flex-basis: 50%;
+  width: 100%;
+  margin: 10px;
 }
 
 .imp-links a{
@@ -507,7 +509,7 @@ nav{
   color: #626262;
   margin: 20px 0;
 }
-.users-container{
+.user-container{
   width: 100%;
   background: var(--bg-color);
   border-radius: 6px;
@@ -629,6 +631,7 @@ nav{
   display: flex;
   align-items: center;
   margin: 15px 0;
+
 }
 .settings-links .settings-icon{
   width: 38px;
@@ -724,7 +727,10 @@ nav{
   margin-bottom: 0;
 
 }
-
+.chat{
+  flex-basis: 50%;
+  margin: 10px;
+}
 .chat-container{
   background: var(--bg-color);
   padding: 15px;
@@ -782,9 +788,6 @@ nav{
   width: 20px;
   position: absolute;
   right: 10px;
-}
-.chat{
-
 }
 .add-post{
   display: flex;
@@ -859,7 +862,7 @@ nav{
 .page-number{
   margin: 0 5px 0 5px;
   border: 1px solid #ada8a8;
-  padding: 10px;
+  padding: 1.5%;
   color: #626262;
   cursor: pointer;
   transition: 0.3s;
@@ -1065,6 +1068,96 @@ nav{
   padding-bottom: 5px;
 }
 
+.stories__container{
+  max-width: 860px;
+
+
+}
+.items{
+  display: flex;
+  flex-direction: row;
+  padding: 10px;
+  cursor: pointer;
+  overflow-x: scroll;
+}
+.items::-webkit-scrollbar{
+  width: 0;
+  background: transparent;
+}
+.item{
+  border-radius: 10px;
+  min-width: 153px;
+  margin-right: 20px;
+  padding: 30px;
+  min-height: 250px;
+}
+
+.bottom {
+  display: none;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  margin: 0 auto;
+  width: 100%;
+  background: var(--body-color);
+}
+.bottom__rows {
+  display: flex;
+  justify-content: space-between;
+  padding: 2% 2%;
+  position: relative;
+}
+.bottom__row {
+  padding: 0 8%;
+}
+/*.bottom__row:after {*/
+/*  content: '';*/
+/*  position: absolute;*/
+/*  border-right: 2px solid #5514ee;*/
+/*  padding-right: 2px;*/
+/*  height: 42px;*/
+/*  padding-right: 10%;*/
+/*}*/
+.bottom__row:last-child:after{
+  content: none;
+}
+.bottom__row img{
+  max-width: 30px;
+}
+.users{
+  flex-basis: 50%;
+  margin: 10px;
+  width: 100%;
+}
+.users-container{
+
+}
+.dialogs-content{
+  flex-basis: 50%;
+  margin: 10px;
+  width: 100%;
+}
+
+@media screen and (max-width: 992.98px) {
+  .right-sidebar{
+    display: none;
+  }
+  .nav-list{
+    display: none;
+  }
+  .slider{
+    max-width: 400px;
+  }
+}
+
+
+
+@media screen and (max-width: 1300.98px) {
+  .main-content{
+    max-width: 600px;
+  }
+}
+
 @media screen and (max-width: 1100.98px) {
   .header__list{
     display: none;
@@ -1073,6 +1166,66 @@ nav{
 @media screen and (max-width: 992.98px) {
   .right-sidebar{
     display: none;
+  }
+  .users{
+    flex-basis: auto;
+  }
+  .dialogs-content{
+    flex-basis: auto;
+  }
+  .chat{
+    flex-basis: 100%;
+  }
+}
+@media screen and (max-width: 767.98px) {
+  .search-box{
+    display: none;
+  }
+  .left-sidebar{
+    display: none;
+  }
+  .main-content{
+    margin: 0 auto;
+    max-width: 600px;
+    padding-bottom: 0px;
+  }
+  .bottom{
+    display: block;
+  }
+  .add-post-links{
+    flex-wrap: wrap;
+  }
+}
+@media screen and (max-width: 670.98px) {
+  .main-content{
+    max-width: 550px;
+  }
+}
+@media screen and (max-width: 550.98px) {
+  .main-content{
+    max-width: none;
+    width: 100%;
+  }
+  .profile__rows{
+    flex-wrap: wrap;
+  }
+  .profile__about__row{
+    margin-bottom: 30px;
+  }
+  .profile-upload-btn{
+    margin-left: 0;
+  }
+  .profile__about{
+
+  }
+  .add-post-links a{
+    margin-bottom: 10px;
+  }
+  .add-post{
+    display: block;
+  }
+  .post-input-container {
+    padding-left: 18px;
   }
 }
 
