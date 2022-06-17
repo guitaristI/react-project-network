@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/react-project-network/static/css/main.9c51a7b4.css",
-    "main.js": "/react-project-network/static/js/main.60c7fc28.js",
+    "main.css": "/react-project-network/static/css/main.53e05cf4.css",
+    "main.js": "/react-project-network/static/js/main.b377bbbe.js",
     "static/js/360.adc8f41c.chunk.js": "/react-project-network/static/js/360.adc8f41c.chunk.js",
     "static/js/787.28cb0dcd.chunk.js": "/react-project-network/static/js/787.28cb0dcd.chunk.js",
     "static/media/advertisement.png": "/react-project-network/static/media/advertisement.158a903475f0155742b6.png",
@@ -29,13 +29,13 @@
     "static/media/icons8.png": "/react-project-network/static/media/icons8.ecf962a7d588bd793ac9.png",
     "static/media/send-message.png": "/react-project-network/static/media/send-message.cce7f972efaf9447fcdf.png",
     "index.html": "/react-project-network/index.html",
-    "main.9c51a7b4.css.map": "/react-project-network/static/css/main.9c51a7b4.css.map",
-    "main.60c7fc28.js.map": "/react-project-network/static/js/main.60c7fc28.js.map",
+    "main.53e05cf4.css.map": "/react-project-network/static/css/main.53e05cf4.css.map",
+    "main.b377bbbe.js.map": "/react-project-network/static/js/main.b377bbbe.js.map",
     "360.adc8f41c.chunk.js.map": "/react-project-network/static/js/360.adc8f41c.chunk.js.map",
     "787.28cb0dcd.chunk.js.map": "/react-project-network/static/js/787.28cb0dcd.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.9c51a7b4.css",
-    "static/js/main.60c7fc28.js"
+    "static/css/main.53e05cf4.css",
+    "static/js/main.b377bbbe.js"
   ]
 }
