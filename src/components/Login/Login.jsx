@@ -13,6 +13,8 @@ const LoginForm = (props) => {
          <div className='login-container'>
              <div className="login-item">
                  <h1>Please enter your e-mail and password</h1>
+                 <h2>test email and password:<br/>
+                     <span>Email:</span> free@samuraijs.com <span>Password:</span> free</h2>
                  <Formik
                      initialValues={{email: '', password: ''}}
                      onSubmit={(formData) => {
@@ -31,8 +33,8 @@ const LoginForm = (props) => {
                        }) => (
                            <div className='form-item'>
                                <form className='form-card' onSubmit={handleSubmit}>
-                                   <Field type="email" name="email"/>
-                                   <Field type="password" name="password"/>
+                                   <Field type="email" placeholder='Your email' name="email"/>
+                                   <Field type="password" placeholder='Your password' name="password"/>
                                    <div className='form-text'>
                                        <span>Remember me</span>
                                        <Field type="checkbox" name="rememberMe"/>

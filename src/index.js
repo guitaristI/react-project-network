@@ -13,6 +13,7 @@ root.render(<HashRouter basename={process.env.PUBLIC}>
         <App/>
     </Provider>
 </HashRouter>)
+console.log(store.getState())
 
 
 

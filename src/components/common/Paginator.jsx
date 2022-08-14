@@ -34,10 +34,11 @@ const Paginator = (props) => {
     { portionCount > portionNumber &&
         <img  src={arrow_right} onClick={() => { setPortionNumber(portionNumber + 1) }} />
      }
-
-
 </div>
 }
+
+export default Paginator;
+
 
 //     return <div className='page-numbers'>
 //         {
@@ -49,5 +50,3 @@ const Paginator = (props) => {
 //         }
 //     </div>
 // }
-
-export default Paginator;

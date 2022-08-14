@@ -401,9 +401,9 @@ nav{
   position: absolute;
   bottom: 10px;
   width: 100%;
-  text-align: center;
   color: #fff;
   font-size: 14px;
+  padding-left: 14px;
 }
 
 .story1{
@@ -995,7 +995,14 @@ nav{
 .login-item h1{
   font-weight: 900;
   font-size: 18px;
-  margin-bottom: 30px;
+  margin-bottom: 10px;
+}
+.login-item h2{
+  margin-bottom: 20px;
+  line-height: 20px;
+}
+.login-item h2 span{
+  font-weight: bold;
 }
 .form-item{
 
@@ -1136,6 +1143,9 @@ nav{
   flex-basis: 50%;
   margin: 10px;
   width: 100%;
+}
+.dialogs-content{
+  margin-bottom: 350px;
 }
 
 @media screen and (max-width: 992.98px) {
